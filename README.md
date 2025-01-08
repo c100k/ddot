@@ -49,6 +49,8 @@ ddot loadenv --out .env.production --uri file://.env.base --uri bw://myapp-prod 
 
 As your can see, `ddot` can combine multiple resources into one `.env` file. For each provider, see the ad-hoc subsection below, with specific setup instructions.
 
+The commands above create the `.env` file and whenever you press <kbd>ctrl</kbd> + <kbd>C</kbd>, it is automatically deleted.
+
 ## Providers
 
 Currently, there are 3 providers available.
