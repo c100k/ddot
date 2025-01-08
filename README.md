@@ -26,10 +26,12 @@ Indeed, some attackers target developers in order to scan their disk to exfiltra
 
 `ddot` runs on your machine and is compatible with the following Password Managers : [bitwarden](https://bitwarden.com) and [1Password](https://1password.com).
 
-Here are some commands showing how to use it.
+First, download the [latest release](https://github.com/c100k/ddot/releases).
+
+Then, get inspiration from the commands below to define the ones that fit your own workflow.
 
 ```sh
-# create a .env file from the contents of .env.base (fine if it contains non-sensitive secrets)
+# create a .env file from the contents of .env.base (fine as long as it does not contain non-sensitive secrets)
 ddot loadenv --uri file://.env.base
 
 # create a .env file from the contents of the bitwarden secure note named `myapp-dev`
