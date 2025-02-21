@@ -84,3 +84,15 @@ Check your install.
 ```sh
 op --version
 ```
+
+## Run from source
+
+```sh
+git clone git@github.com:c100k/ddot.git
+
+go fmt && go build
+
+./ddot version
+./ddot loadenv --uri file://.env.example.1
+./ddot loadenv --uri file://.env.example.1 --uri file://.env.example.2
+```
