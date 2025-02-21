@@ -8,10 +8,6 @@ A utility tool to create short-living and disposable `.env` files from your Pass
     </a>
 </p>
 
-> [!IMPORTANT]
-> This is a hobby project. It's developed by only one person and should be considered as is. It may keep going for years or stop at any time.
-> The source code will probably be published when the structure and documentation is state of the art.
-
 ## Why ?
 
 According to the [3rd rule of the twelve-factor app](https://12factor.net/config), all the application config that depends on the environment (`dev`, `staging`, `prod`...) must not be stored as constants in the code. Instead, it must be stored in environment variables.
